@@ -242,6 +242,10 @@ body {
   color: #4d5ae5;
 }
 
-.span {
+.span-footer {
   color: #f4f4f4fd;
+}
+
+.span-header {
+  color: #2e2f42;
 }
