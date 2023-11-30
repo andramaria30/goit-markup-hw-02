@@ -4,7 +4,7 @@ body {
   background-color: #ffffffff;
 }
 
-.logo-link {
+.log {
   font-family: "Raleway", sans-serif;
   font: weight 800px;
   font: size 18px;
@@ -12,19 +12,49 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
 }
 
 .link {
   text-decoration: none;
 }
 
-.studio {
+.studio-class {
   color: #2e2f42;
 }
 
 .list {
   list-style: none;
+}
+
+.logo-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #404bbf;
+}
+
+.link:focus {
+  color: #404bbf;
+}
+
+.contact-list {
+  font-style: normal;
+}
+
+.contact-list-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .item {
@@ -35,12 +65,8 @@ body {
   color: #2e2f42;
 }
 
-.logo-link:hover {
-  color: #404bbf;
-}
-
-.logo-link:focus {
-  color: #404bbf;
+.address {
+  font-style: normal;
 }
 
 .contact-list {
@@ -48,19 +74,36 @@ body {
   list-style: none;
 }
 
-.email-info {
+.email {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.link:hover {
-  color: #404bbf;
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
 
-.link:focus {
-  color: #404bbf;
+.btn:hover {
+  color: #ffffffff;
+  background-color: #404bbf;
+}
+
+.btn:focus {
+  color: #ffffffff;
+  background-color: #404bbf;
+}
+
+.button.link {
+  text-decoration: none;
 }
 
 .first-section {
@@ -189,10 +232,16 @@ body {
   --culoare-secundara: #ff1744;
 }
 
-.logo-text {
-  color:#f4f4f4fd;
+.lgo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.lgo {
-  
-  
+.span {
+  color: #f4f4f4fd;
+}
