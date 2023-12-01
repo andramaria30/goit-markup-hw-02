@@ -398,7 +398,7 @@ body {
   text-align: center;
 
   /* Button Text */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -406,6 +406,7 @@ body {
   letter-spacing: 0.64px;
   background-color: #f4f4fd;
   cursor: pointer;
+  color: #4d5ae5;
 }
 
 .button-link:hover {
