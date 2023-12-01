@@ -4,27 +4,42 @@ body {
   background-color: #ffffffff;
 }
 
-.logo link {
-  color: var(--NAVY-BLUE, #2e2f42);
+/*Header*/
 
-  /* Body Medium */
+/*Stilul pentru "clasa logo-ului*/
+
+.logo {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 1.17; /* 150% */
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 
-.logo link {
+/*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
+
+.link {
   text-decoration: none;
+}
+
+/*logo-list-primul element al listei*/
+
+.logo-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #2e2f42;
+}
+
+.logo-list:hover {
+  color: #404bbf;
+}
+
+.logo-list:focus {
+  color: #404bbf;
 }
 
 .first-section {
@@ -125,35 +140,6 @@ body {
 .list {
   list-style: none;
   background-color: #ffffffff;
-}
-
-.logo-link link {
-  color: var(--NAVY-BLUE, #2e2f42);
-
-  /* Body Medium */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
-.logo link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.logo-link link {
-  color: #2e2f42;
-}
-
-.link {
-  text-decoration: none;
 }
 
 .span-header {
@@ -396,19 +382,6 @@ body {
   background-color: #ffffffff;
 }
 
-.logo-link link {
-  color: var(--CLOUD, #f4f4fd);
-
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
 .button-link {
   color: var(--WHITE, #fff);
   text-align: center;
@@ -423,17 +396,6 @@ body {
   background-color: #f4f4fd;
   cursor: pointer;
   color: #4d5ae5;
-}
-
-.lgo-link {
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 
 .span-footer {
