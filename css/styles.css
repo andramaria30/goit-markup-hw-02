@@ -4,6 +4,74 @@ body {
   background-color: #ffffffff;
 }
 
+.first-section {
+  background-color: #2e2f42;
+}
+
+.title-first-section {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.button-first-section {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-first-section:hover {
+  background-color: #404bbf;
+}
+
+.button-first-section:focus {
+  background-color: #404bbf;
+}
+
+.title-second-section {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.paragraph-second-section {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.title-third-section {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.forth-section {
+  background-color: #f4f4fd;
+}
+
+.title-forth-section {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
 .log {
   font-family: "Raleway", sans-serif;
   font: weight 800px;
@@ -24,6 +92,7 @@ body {
 
 .list {
   list-style: none;
+  background-color: #ffffffff;
 }
 
 .logo-link {
