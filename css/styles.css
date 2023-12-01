@@ -127,19 +127,15 @@ body {
   background-color: #ffffffff;
 }
 
-.logo-link link {
-  color: var(--NAVY-BLUE, #2e2f42);
-
-  /* Body Medium */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
+.logo {
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.link {
+.logo link {
   text-decoration: none;
 }
 
