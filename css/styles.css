@@ -4,7 +4,7 @@ body {
   background-color: #ffffffff;
 }
 
-.logo {
+.logo link {
   color: var(--NAVY-BLUE, #2e2f42);
 
   /* Body Medium */
