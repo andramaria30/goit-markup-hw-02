@@ -4,7 +4,7 @@ body {
   background-color: #ffffffff;
 }
 
-.logo-link {
+.logo {
   color: var(--NAVY-BLUE, #2e2f42);
 
   /* Body Medium */
@@ -18,7 +18,7 @@ body {
   color: #4d5ae5;
 }
 
-.logo-link link {
+.logo link {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
