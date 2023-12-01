@@ -233,9 +233,6 @@ body {
 
 .button-link {
   text-decoration: none;
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 24px;
 }
 
 .first-section {
