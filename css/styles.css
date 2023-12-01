@@ -4,43 +4,7 @@ body {
   background-color: #ffffffff;
 }
 
-/*Header*/
-
-/*Stilul pentru "clasa logo-ului*/
-
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-/*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
-
-.link {
-  text-decoration: none;
-}
-
-/*logo-list-primul element al listei*/
-
-.logo-list {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.logo-list:hover {
-  color: #404bbf;
-}
-
-.logo-list:focus {
-  color: #404bbf;
-}
+/*index.html*/
 
 .first-section {
   background-color: #2e2f42;
@@ -119,6 +83,86 @@ body {
   color: #2e2f42;
 }
 
+/*Header*/
+
+/*Stilul pentru "clasa logo-ului*/
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+/*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
+
+.link {
+  text-decoration: none;
+}
+
+/*logo-list-primul element al listei*/
+
+.logo-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.logo-list:hover {
+  color: #404bbf;
+}
+
+.logo-list:focus {
+  color: #404bbf;
+}
+
+/*Main*/
+
+.list {
+  list-style: none;
+}
+
+.button-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  color: #ffffffff;
+  background-color: #404bbf;
+}
+
+.button-link:focus {
+  color: #ffffffff;
+  background-color: #404bbf;
+}
+
+.title-main-section {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.paragraph-main-section {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434454;
+}
+
 .log {
   font-family: "Raleway", sans-serif;
   font: weight 800px;
@@ -135,11 +179,6 @@ body {
 
 .studio-class {
   color: #2e2f42;
-}
-
-.list {
-  list-style: none;
-  background-color: #ffffffff;
 }
 
 .span-header {
@@ -257,7 +296,7 @@ body {
   color: #2e2f42;
 }
 
-.paragraf-second-section {
+.paragraph-second-section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -317,21 +356,6 @@ body {
 .button-main:focus {
   color: #ffffffff;
   color: #404bbf;
-}
-
-.title-main-section {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.paragraph-main-section {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434454;
 }
 
 .ftr {
