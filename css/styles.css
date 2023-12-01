@@ -4,6 +4,27 @@ body {
   background-color: #ffffffff;
 }
 
+.logo-link {
+  color: var(--IRIS, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-link link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .first-section {
   background-color: #2e2f42;
 }
@@ -102,17 +123,6 @@ body {
 .list {
   list-style: none;
   background-color: #ffffffff;
-}
-
-.logo-link {
-  color: var(--IRIS, #4d5ae5);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 
 .logo-link link {
@@ -374,11 +384,6 @@ body {
 
 .span-header {
   color: #2e2f42;
-}
-
-.logo-link link {
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
 }
 
 .background-special {
