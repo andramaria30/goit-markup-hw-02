@@ -163,10 +163,10 @@ body {
   color: #434454;
 }
 
-.log {
+.lgo {
   font-family: "Raleway", sans-serif;
-  font: weight 800px;
-  font: size 18px;
+  font-weight: 800px;
+  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -215,25 +215,6 @@ body {
   color: #404bbf;
 }
 
-.contact-list {
-  font-style: normal;
-}
-
-.contact-list-item {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
 .address {
   font-style: normal;
 }
@@ -265,7 +246,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
