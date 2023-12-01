@@ -439,3 +439,9 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+
+p.logo-link link {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
