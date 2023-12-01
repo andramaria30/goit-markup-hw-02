@@ -9,11 +9,13 @@ body {
 
   /* Body Medium */
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  font-weight: 800;
+  line-height: 1.17; /* 150% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-link link {
@@ -22,7 +24,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 
 .first-section {
@@ -231,8 +233,11 @@ body {
   background-color: #404bbf;
 }
 
-.button.link {
+.button-link {
   text-decoration: none;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
 }
 
 .first-section {
@@ -317,9 +322,18 @@ body {
   cursor: pointer;
 }
 
-.button-main:hover {
+.button-link:hover {
   color: #ffffffff;
   background-color: #404bbf;
+}
+
+.button-link:focus {
+  color: #ffffffff;
+  background-color: #404bbf;
+}
+
+.button-main:hover {
+  color: #ffffffff;
 }
 
 .button-main:focus {
@@ -417,14 +431,6 @@ body {
   background-color: #f4f4fd;
   cursor: pointer;
   color: #4d5ae5;
-}
-
-.button-link:hover {
-  background-color: #404bbf;
-}
-
-.button-link:focus {
-  background-color: #404bbf;
 }
 
 .lgo-link {
