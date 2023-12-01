@@ -369,3 +369,37 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
+.background-special {
+  background-color: #ffffffff;
+}
+
+.logo-link link {
+  color: #f4f4f4fd;
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+.button-link {
+  color: var(--WHITE, #fff);
+  text-align: center;
+
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  background-color: #404bbf;
+}
+
+.button-link:focus {
+  background-color: #404bbf;
+}
