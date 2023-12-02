@@ -4,7 +4,7 @@ body {
   background-color: #ffffffff;
 }
 
-/*index.html*/
+/*header*/
 
 .first-section {
   background-color: #2e2f42;
@@ -302,17 +302,6 @@ body {
   list-style: none;
 }
 
-.button-main {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-  cursor: pointer;
-}
-
 .button-link:hover {
   color: #ffffffff;
   background-color: #404bbf;
@@ -321,15 +310,6 @@ body {
 .button-link:focus {
   color: #ffffffff;
   background-color: #404bbf;
-}
-
-.button-main:hover {
-  color: #ffffffff;
-}
-
-.button-main:focus {
-  color: #ffffffff;
-  color: #404bbf;
 }
 
 .ftr {
